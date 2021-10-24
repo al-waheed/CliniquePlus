@@ -17,6 +17,8 @@
   --tertiary-color1: #ef3936;
 }
 
+/* sidebar */
+
 .sidebar {
   width: 300px;
   position: fixed;
@@ -126,6 +128,8 @@
 .sidebar-menu .dropdown-container a {
   padding: 1rem 0rem 1.5rem 0rem;
 }
+
+/* sidebar end */
 
 /* navbar */
 
@@ -261,13 +265,15 @@ header {
   font-size: 1rem;
 }
 
-/* navbar */
+/* navbar  end */
+
+
+/* main-content */
 
 main {
   margin-top: 100px;
   padding: 1rem 1.5rem;
   background: #f1f5f9;
-  /* min-height: calc(100vh - 90px); */
   display: flex;
 }
 
@@ -394,6 +400,8 @@ main {
   background-color: var(--primary-color2);
   border: 2px solid var(--primary-color2);
 }
+
+/* main-content end */
 
 /* footer */
 
