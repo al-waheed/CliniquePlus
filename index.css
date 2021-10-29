@@ -44,7 +44,7 @@
 }
 
 .sidebar-menu {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .sidebar-menu li {
@@ -121,7 +121,7 @@
 .sidebar-menu .dropdown-container {
   display: none;
   background-color: var(--primary-color2);
-  padding-left: 25px;
+  padding-left: 40px;
   margin-bottom: -40px;
 }
 
@@ -141,12 +141,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.8rem 0rem;
   border-bottom: 2px solid var(--primary-color2);
   position: fixed;
   width: calc(100% - 300px);
   top: 0;
-  background-color: var(--primary-color);
+  background-color: #fcfcfc;
 }
 
 .search {
@@ -156,7 +155,7 @@ header {
 
 .search label span {
   font-size: 2rem;
-  padding: 0rem 2rem;
+  padding: 2.1rem 2rem;
   color: var(--primary-color1);
   border-right: 2px solid var(--primary-color2);
 }
@@ -164,6 +163,10 @@ header {
 .search-wrapper {
   display: flex;
   align-items: center;
+}
+
+.search-wrapper input{
+  background-color: #fcfcfc;
 }
 
 .search-wrapper span {
@@ -268,12 +271,12 @@ header {
 /* navbar  end */
 
 
-/* main-content */
+/* main */
 
 main {
   margin-top: 100px;
   padding: 1rem 1.5rem;
-  background: #f1f5f9;
+  background: #fcfcfc;
   display: flex;
 }
 
@@ -334,7 +337,11 @@ main {
 }
 
 .patient-info .patient-detail {
-  margin-left: -2.2rem;
+  margin-left: -1.8rem;
+}
+
+.patient-info .patient-details h4.active{
+ background-color: var(--primary-color2);
 }
 
 .patient-info .patient-details h4 {
@@ -401,7 +408,7 @@ main {
   border: 2px solid var(--primary-color2);
 }
 
-/* main-content end */
+/* main end */
 
 /* footer */
 
@@ -409,13 +416,14 @@ footer{
   position: relative;
   z-index: 2;
   background-color: var(--primary-color);
+  border-top: 1px solid var(--primary-color2);
 }
 
 .company-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0.7rem 2rem;
   color: var(--primary-color1);
 }
 
